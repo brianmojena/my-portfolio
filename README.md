@@ -1,12 +1,11 @@
 ## Descripción
 
-Lorem ipsum...
+Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y una arquitectura ITCSS.
 
 ## Autor
 **Brian Mojena**
 
-* [LinkedIn] (https://www.linkedin.com/in/brianmojena)
-* [Behance] (https://www.behance.net/midominio)
+* [LinkedIn] (https://www.linkedin.com/in/brianmojena/)
 * [Porfolio Web] (https://midominio.es/)
 
   ## Ver ejemplo en vivo
