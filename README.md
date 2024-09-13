@@ -1,8 +1,8 @@
-## Descripción
+## Descripción 🏝️
 
 Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y una arquitectura ITCSS.
 
-## Autor
+## Autor 🖊️
 **Brian Mojena**
 
 * [LinkedIn] (https://www.linkedin.com/in/brianmojena/)
