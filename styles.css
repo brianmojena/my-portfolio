@@ -1,0 +1,179 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño del cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #444;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Estilo del header */
+header {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Secciones */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    color: #0077b6;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: #00b4d8;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sobre-mi p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+/* Estilo de la sección de tecnologías */
+.tecnologias-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.tecnologia-card {
+    background-color: #fff;
+    color: #0077b6;
+    padding: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tecnologia-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo de los proyectos */
+.proyecto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.proyecto h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+/* Sección de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #00b4d8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #0077b6;
+    color: #fff;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+}
