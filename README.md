@@ -9,7 +9,7 @@ Este es un portfolio creado con HTML, CSS y Javascript usando metodología BEM y
 * [Porfolio Web] (https://midominio.es/)
 
   ## Ver ejemplo en vivo
-  - [ENLACEGITHUBPAGES] (ENLACEGITHUBPAGES)
+  - [(https://brianmojena.github.io/my-portfolio/)] (https://brianmojena.github.io/my-portfolio/)
 
   ## Instalación
   Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
