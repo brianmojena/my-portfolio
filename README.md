@@ -1,8 +1,8 @@
-## Description
+## Descripción
 
 Lorem ipsum...
 
-## Author
+## Autor
 **Brian Mojena**
 
 * [LinkedIn] (https://www.linkedin.com/in/brianmojena)
