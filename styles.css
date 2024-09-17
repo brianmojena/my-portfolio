@@ -177,3 +177,110 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Estilos generales ya existentes */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #444;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Media query para pantallas de menos de 768px (móviles) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 8px 20px;
+        font-size: 0.9em;
+    }
+
+    /* Sección de sobre mí */
+    #sobre-mi p {
+        width: 95%;
+        font-size: 1em;
+    }
+
+    /* Tecnologías */
+    .tecnologias-lista {
+        flex-direction: column;
+    }
+
+    .tecnologia-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Proyectos */
+    .proyecto {
+        width: 95%;
+    }
+
+    /* Formulario de contacto */
+    form input, form textarea {
+        width: 95%;
+    }
+
+    form button {
+        width: 95%;
+    }
+}
+
+/* Media query para pantallas de menos de 480px (smartphones más pequeños) */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    nav ul li a {
+        font-size: 0.8em;
+        padding: 6px 15px;
+    }
+
+    /* Sección de sobre mí */
+    #sobre-mi p {
+        font-size: 0.9em;
+    }
+
+    /* Proyectos */
+    .proyecto h3 {
+        font-size: 1.2em;
+    }
+
+    .proyecto p {
+        font-size: 0.9em;
+    }
+
+    /* Botón de formulario */
+    form button {
+        font-size: 1em;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    margin: 0 auto; /* Centrado */
+    padding: 0 20px; /* Espaciado en los bordes */
+}
