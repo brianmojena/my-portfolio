@@ -188,100 +188,77 @@ body {
     overflow-x: hidden;
 }
 
-/* Media query para pantallas de menos de 768px (móviles) */
+/* Estilos de la sección de contacto */
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#email {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+#copyButton {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#copyButton:hover {
+    background-color: #00b4d8;
+}
+
+/* Media query para pantallas móviles */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    header p {
-        font-size: 1.2em;
-    }
-
-    nav ul {
+    /* Ajustes de la sección de contacto para móviles */
+    .email-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
 
-    nav ul li a {
-        padding: 8px 20px;
-        font-size: 0.9em;
+    #email {
+        width: 90%; /* Aumentamos el ancho para pantallas móviles */
+        font-size: 1em; /* Reducimos el tamaño de fuente */
     }
 
-    /* Sección de sobre mí */
-    #sobre-mi p {
-        width: 95%;
-        font-size: 1em;
+    #copyButton {
+        width: 90%; /* Botón a lo ancho de la pantalla */
+        font-size: 1em; /* Reducimos el tamaño del botón */
+        padding: 12px;
     }
 
-    /* Tecnologías */
-    .tecnologias-lista {
-        flex-direction: column;
-    }
-
-    .tecnologia-card {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    /* Proyectos */
-    .proyecto {
-        width: 95%;
-    }
-
-    /* Formulario de contacto */
-    form input, form textarea {
-        width: 95%;
-    }
-
-    form button {
-        width: 95%;
+    #copiedMessage {
+        font-size: 0.9em; /* Tamaño de fuente más pequeño para el mensaje */
+        margin-top: 10px;
     }
 }
 
-/* Media query para pantallas de menos de 480px (smartphones más pequeños) */
+/* Media query para pantallas aún más pequeñas (móviles más pequeños) */
 @media (max-width: 480px) {
-    header h1 {
-        font-size: 1.8em;
+    #email {
+        font-size: 0.9em;
+        padding: 8px;
     }
 
-    header p {
-        font-size: 1em;
+    #copyButton {
+        font-size: 0.9em;
+        padding: 10px;
     }
 
-    nav ul li a {
+    #copiedMessage {
         font-size: 0.8em;
-        padding: 6px 15px;
     }
-
-    /* Sección de sobre mí */
-    #sobre-mi p {
-        font-size: 0.9em;
-    }
-
-    /* Proyectos */
-    .proyecto h3 {
-        font-size: 1.2em;
-    }
-
-    .proyecto p {
-        font-size: 0.9em;
-    }
-
-    /* Botón de formulario */
-    form button {
-        font-size: 1em;
-    }
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px; /* Ancho máximo para pantallas grandes */
-    margin: 0 auto; /* Centrado */
-    padding: 0 20px; /* Espaciado en los bordes */
 }
