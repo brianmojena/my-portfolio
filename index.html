@@ -52,12 +52,14 @@
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <form>
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo" required>
-            <textarea placeholder="Tu mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <p>Puedes contactarme en el siguiente correo:</p>
+        <div class="email-container">
+            <input type="text" id="email" value="b1319323@gmail.com" readonly>
+            <button id="copyButton">Copiar</button>
+        </div>
+        <p id="copiedMessage" style="display: none; color: green;">¡Correo copiado!</p>
+    </section>
+    
     </section>
 
     <footer>
