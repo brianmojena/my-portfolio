@@ -114,6 +114,9 @@ section h2::after {
 /* Estilo de los proyectos */
 .proyecto {
     background-color: #fff;
+    text-decoration: none;
+    color: inherit; /* Mantiene el color del texto del proyecto */
+    display: block;  /* Hace clic en toda el área del proyecto */
     padding: 20px;
     margin: 20px auto;
     width: 80%;
@@ -125,6 +128,7 @@ section h2::after {
 
 .proyecto:hover {
     transform: translateY(-10px);
+    background-color: #f0f8ff;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
